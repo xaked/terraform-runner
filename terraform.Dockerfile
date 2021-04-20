@@ -5,7 +5,5 @@ LABEL ORGANIZATION="ossystem"\
       OS_FAMILY="alpine"
 RUN apk add --no-cache \
     terraform=0.14.4-r0 \
-    openssh=8.4_p1-r3 \
-    ansible=2.10.6-r0 \
     curl=7.76.1-r0 \
     git=2.30.2-r0
